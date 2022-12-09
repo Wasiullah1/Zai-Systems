@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:zai/view/home.dart';
-import 'package:zai/view/team.dart';
+import 'package:zai_system/View/splashscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,8 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Homescreen(),
-    );
+        debugShowCheckedModeBanner: false,
+        initialRoute: "/",
+        getPages: [
+          GetPage(name: "/", page: () => SplashScreen()),
+        ]);
   }
 }
