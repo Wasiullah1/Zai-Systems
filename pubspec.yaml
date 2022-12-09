@@ -1,4 +1,4 @@
-name: zai
+name: zai_system
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -20,7 +20,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.18.0 <3.0.0'
+  sdk: '>=2.18.2 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -36,11 +36,17 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  get: ^4.6.5
+  get:
+  image_picker:
+  animated_splash_screen: ^1.3.0
+  curved_navigation_bar:
   responsive_framework: ^0.2.0
-  carousel_slider: ^4.1.1
-  flutter_image_slideshow: any
-  #percent_indicator: "^2.1.7+2"
+  url_launcher:
+  font_awesome:
+  http_parser:
+  flutter_image_slideshow:
+  font_awesome_flutter: ^10.2.1
+
 
 dev_dependencies:
   flutter_test:
@@ -59,6 +65,7 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
+
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -66,10 +73,16 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    # - assets\images
+    - assets/course/ASP_Net.PNG
+    - assets/splashScreen/logo.png
     - assets/
+    - assets/splashScreen/
     - assets/team/
+    - assets/fonts/
+    - assets/course/
     - assets/testimonial/
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
