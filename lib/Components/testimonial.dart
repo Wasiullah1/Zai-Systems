@@ -23,7 +23,7 @@ class _TestimonialsState extends State<Testimonials> {
                     decoration: BoxDecoration(color: Colors.black),
                     child: Padding(
                       padding: const EdgeInsets.all(3.0),
-                      child: Text("Testimonials",
+                      child: Text("Client Feedback",
                           style: TextStyle(color: Colors.red, fontSize: 20)),
                     )),
                 SizedBox(
@@ -75,7 +75,7 @@ class _TestimonialsState extends State<Testimonials> {
                             child: Container(
                               child: ClipOval(
                                 child: Image.asset(
-                                  "assets/testimonial/chandra.jpg",
+                                  "assests/testimonial/chandra.jpg",
                                   fit: BoxFit.fill,
                                 ),
                               ),
@@ -158,7 +158,7 @@ class _TestimonialsState extends State<Testimonials> {
                             child: Container(
                               child: ClipOval(
                                 child: Image.asset(
-                                  "assets/testimonial/ryan.jpg",
+                                  "assests/testimonial/ryan.jpg",
                                   fit: BoxFit.fill,
                                 ),
                               ),
@@ -237,7 +237,7 @@ class _TestimonialsState extends State<Testimonials> {
                             child: Container(
                               child: ClipOval(
                                 child: Image.asset(
-                                  "assets/testimonial/jason.jpg",
+                                  "assests/testimonial/jason.jpg",
                                   fit: BoxFit.fill,
                                 ),
                               ),

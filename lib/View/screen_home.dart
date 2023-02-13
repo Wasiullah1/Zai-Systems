@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
             obscureText: homeController.secure.value,
             decoration: InputDecoration(
                 suffixIcon: IconButton(
-              icon: Icon(Icons.password),
+              icon: const  Icon(Icons.password),
               onPressed: () => homeController.secureText(),
             )),
           ),

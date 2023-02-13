@@ -45,7 +45,7 @@ class _CoursesHomeState extends State<CoursesHome> {
                   decoration: BoxDecoration(
                       color: Colors.black,
                       borderRadius: BorderRadius.circular(20)),
-                  child: Image(image: AssetImage("assets/webDevelopment.png"))),
+                  child: Image(image: AssetImage("assests/webDevelopment.png"))),
               SizedBox(
                 height: 30,
               ),

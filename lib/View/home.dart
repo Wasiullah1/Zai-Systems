@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:zai_system/Components/aboutcompany.dart';
 import 'package:zai_system/Components/companyhome.dart';
+import 'package:zai_system/Components/expertise.dart';
 import 'package:zai_system/Components/experts.dart';
 import 'package:zai_system/Components/footer.dart';
 import 'package:zai_system/Components/imagecarousel.dart';
@@ -45,23 +46,12 @@ class _HomescreenState extends State<Homescreen> {
                   CircleAvatar(
                     backgroundColor: Colors.grey,
                     radius: 45,
-                    child: SizedBox(
-                        width: 100,
-                        height: 100,
-                        child: ClipOval(
-                          child: Image(
-                            image: AssetImage(
-                              "assets/prof.jpg",
-                            ),
-                            fit: BoxFit.fill,
-                          ),
-                        )),
                   ),
                   SizedBox(
                     height: 10,
                   ),
                   Text(
-                    "Wasiullah",
+                    "Shahzain Ahmed",
                     style: TextStyle(fontSize: 20, color: Colors.white),
                   )
                 ],
@@ -130,6 +120,7 @@ class _HomescreenState extends State<Homescreen> {
             Companyhome(),
             CoursesHome(),
             AboutCompany(),
+            Expertise(),
             ImageSlider(),
             Experts(),
             Testimonials(),

@@ -16,13 +16,13 @@ class _FooterState extends State<Footer> {
         children: [
           Container(
               decoration: BoxDecoration(color: Colors.black),
-              child: Image(image: AssetImage("assets/location.png"))),
+              child: Image(image: AssetImage("assests/location.png"))),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 20),
             child: Column(
               children: [
                 Image(
-                  image: AssetImage("assets/logowhite.png"),
+                  image: AssetImage("assests/logowhite.png"),
                   width: 100,
                   height: 100,
                 ),
@@ -202,7 +202,7 @@ class _FooterState extends State<Footer> {
                       height: 10,
                     ),
                     Text(
-                      "Mopnday-Saturday",
+                      "Monday-Saturday",
                       style: TextStyle(
                           color: Colors.grey.shade400,
                           fontSize: 20,

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:zai_system/Components/aboutcompany.dart';
+import 'package:zai_system/View/team.dart';
 
 class Companyhome extends StatefulWidget {
   const Companyhome({super.key});
@@ -39,7 +41,7 @@ class _CompanyhomeState extends State<Companyhome> {
           padding: const EdgeInsets.symmetric(horizontal: 20),
           child: Column(
             children: [
-              Image(image: AssetImage("assets/team/owais.jpg")),
+              Image(image: AssetImage("assests/team/owais.jpg")),
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 15),
                 child: Align(
@@ -54,12 +56,15 @@ class _CompanyhomeState extends State<Companyhome> {
                   ),
                 ),
               ),
-              Text(
-                "ZAI SYSTEMS (SMC-PRIVATE) LIMITED",
-                style: TextStyle(
-                  color: Colors.red,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 30,
+              Align(
+                alignment: Alignment.topLeft,
+                child: Text(
+                  "ZAI SYSTEMS (SMC-PRIVATE) LIMITED",
+                  style: TextStyle(
+                    color: Colors.red,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 17,
+                  ),
                 ),
               ),
               Text(
@@ -92,7 +97,10 @@ class _CompanyhomeState extends State<Companyhome> {
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 30),
                 child: InkWell(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => Team()));
+                  },
                   child: Align(
                     alignment: Alignment.topLeft,
                     child: Container(

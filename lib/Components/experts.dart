@@ -137,7 +137,7 @@ class _ExpertsState extends State<Experts> {
                     child: Container(
                       child: ClipOval(
                         child: Image.asset(
-                          "assets/team/huzaifa.jpeg",
+                          "assests/team/huzaifa.jpeg",
                           fit: BoxFit.fill,
                         ),
                       ),

@@ -66,7 +66,7 @@ class _AboutCompanyState extends State<AboutCompany> {
                           fontSize: 15,
                           fontWeight: FontWeight.normal),
                     ),
-                    Image(image: AssetImage("assets/webapp.png")),
+                    Image(image: AssetImage("assests/webapp.png")),
                   ],
                 ),
               ),
@@ -101,7 +101,7 @@ class _AboutCompanyState extends State<AboutCompany> {
                           fontSize: 15,
                           fontWeight: FontWeight.normal),
                     ),
-                    Image(image: AssetImage("assets/ecom.png")),
+                    Image(image: AssetImage("assests/ecom.png")),
                   ],
                 ),
               ),
@@ -136,7 +136,7 @@ class _AboutCompanyState extends State<AboutCompany> {
                           fontSize: 15,
                           fontWeight: FontWeight.normal),
                     ),
-                    Image(image: AssetImage("assets/schedule.png")),
+                    Image(image: AssetImage("assests/schedule.png")),
                   ],
                 ),
               ),
@@ -160,19 +160,19 @@ class _AboutCompanyState extends State<AboutCompany> {
                   borderRadius: BorderRadius.circular(30),
                 ),
                 child: Padding(
-                    padding: const EdgeInsets.symmetric(
-                        vertical: 18, horizontal: 25),
-                    child: TextButton(
-                      child: Text(
-                        "Read More",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.normal,
-                          fontSize: 19,
-                        ),
-                      ),
-                      onPressed: () {},
-                    )),
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 18, horizontal: 25),
+                  child: TextButton(
+    child:  Text(
+      "Read More",
+      style: TextStyle(
+        color: Colors.white,
+        fontWeight: FontWeight.normal,
+        fontSize: 19,
+      ),
+    ),onPressed: () {  },
+    )
+                ),
               ),
             ),
           )

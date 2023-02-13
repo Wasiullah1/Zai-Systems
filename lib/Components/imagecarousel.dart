@@ -13,18 +13,22 @@ class _CarouselState extends State<Carousel> {
   Widget build(BuildContext context) {
     return ImageSlideshow(
       width: double.infinity,
-      height: 500,
+      height: 300,
       initialPage: 0,
       indicatorColor: Colors.red,
       indicatorBackgroundColor: Colors.grey,
+      // ignore: sort_child_properties_last
       children: [
         Container(
           // height: 300,
           width: MediaQuery.of(context).size.width,
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage("assets/bg.png"),
+              image: AssetImage("assests/bg.png"),
+              opacity: (10),
               fit: BoxFit.cover,
+              colorFilter:
+                  ColorFilter.mode(Colors.transparent, BlendMode.darken),
             ),
           ),
           child: Column(
@@ -34,8 +38,8 @@ class _CarouselState extends State<Carousel> {
                 Text(
                   "ZaiSystems",
                   style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 50,
+                      color: Color.fromRGBO(255, 255, 255, 1),
+                      fontSize: 40,
                       fontWeight: FontWeight.bold),
                 ),
                 SizedBox(
@@ -45,7 +49,7 @@ class _CarouselState extends State<Carousel> {
                   "ZaiSystems speciality teams create cost-effective innovative custom solutions to meet your challenges",
                   style: TextStyle(
                       color: Colors.grey.shade300,
-                      fontSize: 20,
+                      fontSize: 17,
                       fontWeight: FontWeight.normal),
                 )
               ]),
@@ -54,8 +58,11 @@ class _CarouselState extends State<Carousel> {
           width: MediaQuery.of(context).size.width,
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage("assets/bgI.png"),
+              image: AssetImage("assests/bgI.png"),
+              opacity: (10),
               fit: BoxFit.cover,
+              colorFilter:
+                  ColorFilter.mode(Colors.transparent, BlendMode.darken),
             ),
           ),
           child: Column(
@@ -66,7 +73,7 @@ class _CarouselState extends State<Carousel> {
                   "Courses Provided",
                   style: TextStyle(
                       color: Colors.white,
-                      fontSize: 50,
+                      fontSize: 40,
                       fontWeight: FontWeight.bold),
                 ),
                 SizedBox(
@@ -76,7 +83,7 @@ class _CarouselState extends State<Carousel> {
                   "ZaiSystems speciality teams create cost-effective innovative custom solutions to meet your challenges",
                   style: TextStyle(
                       color: Colors.grey.shade300,
-                      fontSize: 20,
+                      fontSize: 17,
                       fontWeight: FontWeight.normal),
                 )
               ]),
@@ -85,8 +92,11 @@ class _CarouselState extends State<Carousel> {
           width: MediaQuery.of(context).size.width,
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage("assets/bg3.jpg"),
+              image: AssetImage("assests/bg3.jpg"),
+              opacity: (10),
               fit: BoxFit.cover,
+              colorFilter:
+                  ColorFilter.mode(Colors.transparent, BlendMode.darken),
             ),
           ),
           child: Column(
@@ -97,7 +107,7 @@ class _CarouselState extends State<Carousel> {
                   "Software Provider",
                   style: TextStyle(
                       color: Colors.white,
-                      fontSize: 50,
+                      fontSize: 40,
                       fontWeight: FontWeight.bold),
                 ),
                 SizedBox(
@@ -107,7 +117,7 @@ class _CarouselState extends State<Carousel> {
                   "ZaiSystems speciality teams create cost-effective innovative custom solutions to meet your challenges",
                   style: TextStyle(
                       color: Colors.grey.shade300,
-                      fontSize: 20,
+                      fontSize: 17,
                       fontWeight: FontWeight.normal),
                 )
               ]),
