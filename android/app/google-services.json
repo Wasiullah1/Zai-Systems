@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "636439448051",
+    "project_id": "zai-system-app",
+    "storage_bucket": "zai-system-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636439448051:android:abfdac68c29d187de1aa86",
+        "android_client_info": {
+          "package_name": "com.example.zai_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636439448051-8ih526euqf74mgrog1e7diubq40sh0mv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zai_system",
+            "certificate_hash": "a4b23877243a284691c1ee833d31016af39be7ab"
+          }
+        },
+        {
+          "client_id": "636439448051-6e0n9mfesm1id3946t3bbqjc3slpvj0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoOP2hi4bqtXeTD5AYj14cFBrVT6Boyoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636439448051-6e0n9mfesm1id3946t3bbqjc3slpvj0i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "636439448051-8b4d74t2nh2ujupieqsf8v32b5gdps9k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.zaiSystem"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
